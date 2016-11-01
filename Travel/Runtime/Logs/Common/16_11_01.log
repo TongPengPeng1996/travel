@@ -1,376 +1,214 @@
-[ 2016-11-01T00:20:13+08:00 ] 127.0.0.1 /favicon.ico
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Favicon
-
-[ 2016-11-01T00:31:41+08:00 ] 127.0.0.1 /images/int2.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:31:41+08:00 ] 127.0.0.1 /images/int3.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:31:41+08:00 ] 127.0.0.1 /images/int1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:31:41+08:00 ] 127.0.0.1 /images/eat1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:31:41+08:00 ] 127.0.0.1 /images/int4.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:01+08:00 ] 127.0.0.1 /images/eat1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:01+08:00 ] 127.0.0.1 /images/int3.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:01+08:00 ] 127.0.0.1 /images/int1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:01+08:00 ] 127.0.0.1 /images/int4.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:01+08:00 ] 127.0.0.1 /images/int2.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:01+08:00 ] 127.0.0.1 /favicon.ico
+[ 2016-11-01T10:16:09+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:32:02+08:00 ] 127.0.0.1 /favicon.ico
+[ 2016-11-01T10:16:22+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:32:06+08:00 ] 127.0.0.1 /images/int2.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:06+08:00 ] 127.0.0.1 /images/int1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:06+08:00 ] 127.0.0.1 /images/int3.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:06+08:00 ] 127.0.0.1 /images/int4.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:06+08:00 ] 127.0.0.1 /images/eat1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:32:39+08:00 ] 127.0.0.1 /images/eat1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:01+08:00 ] 127.0.0.1 /images/t2.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:01+08:00 ] 127.0.0.1 /images/n1.jpg
+[ 2016-11-01T10:16:35+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:01+08:00 ] 127.0.0.1 /images/t3.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:01+08:00 ] 127.0.0.1 /images/n1.jpg
+[ 2016-11-01T10:17:01+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:01+08:00 ] 127.0.0.1 /images/t3.jpg
+[ 2016-11-01T10:17:32+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:01+08:00 ] 127.0.0.1 /images/t2.jpg
+[ 2016-11-01T10:17:46+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:08+08:00 ] 127.0.0.1 /images/n1.jpg
+[ 2016-11-01T10:18:01+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:08+08:00 ] 127.0.0.1 /images/t2.jpg
+[ 2016-11-01T10:18:11+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:08+08:00 ] 127.0.0.1 /images/t3.jpg
+[ 2016-11-01T10:18:17+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:08+08:00 ] 127.0.0.1 /images/t2.jpg
+[ 2016-11-01T10:18:32+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-01T10:24:56+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:08+08:00 ] 127.0.0.1 /images/t3.jpg
+[ 2016-11-01T10:28:29+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-01T10:28:55+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:09+08:00 ] 127.0.0.1 /images/n1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:12+08:00 ] 127.0.0.1 /images/n1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:12+08:00 ] 127.0.0.1 /images/t3.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:12+08:00 ] 127.0.0.1 /images/t2.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:42+08:00 ] 127.0.0.1 /images/t3.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:42+08:00 ] 127.0.0.1 /images/n1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:42+08:00 ] 127.0.0.1 /images/t2.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:48:42+08:00 ] 127.0.0.1 /images/t2.jpg
+[ 2016-11-01T10:29:17+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:42+08:00 ] 127.0.0.1 /images/t3.jpg
+[ 2016-11-01T10:30:14+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:48:42+08:00 ] 127.0.0.1 /images/n1.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:50:22+08:00 ] 127.0.0.1 /images/t2.jpg
+[ 2016-11-01T10:30:28+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:50:22+08:00 ] 127.0.0.1 /images/t3.jpg
+[ 2016-11-01T10:31:04+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:50:22+08:00 ] 127.0.0.1 /images/n1.jpg
+[ 2016-11-01T10:31:29+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-01T10:31:48+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:50:23+08:00 ] 127.0.0.1 /images/t2.jpg
+[ 2016-11-01T10:31:57+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:51:21+08:00 ] 127.0.0.1 /images/t2.jpg
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:51:21+08:00 ] 127.0.0.1 /images/n1.jpg
+[ 2016-11-01T10:33:54+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:51:21+08:00 ] 127.0.0.1 /images/t3.jpg
+[ 2016-11-01T10:34:18+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-01T10:35:03+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:51:21+08:00 ] 127.0.0.1 /images/t2.jpg
+[ 2016-11-01T10:35:21+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:51:21+08:00 ] 127.0.0.1 /images/n1.jpg
+[ 2016-11-01T10:35:27+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:51:21+08:00 ] 127.0.0.1 /images/t3.jpg
+[ 2016-11-01T10:36:19+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:57:40+08:00 ] 127.0.0.1 /images/loading.gif
+[ 2016-11-01T10:36:44+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:57:40+08:00 ] 127.0.0.1 /images/closew.gif
+[ 2016-11-01T10:39:27+08:00 ] 127.0.0.1 /single.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Single
 
-[ 2016-11-01T00:57:41+08:00 ] 127.0.0.1 /images/rightw.gif
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:57:41+08:00 ] 127.0.0.1 /images/leftw.gif
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:57:44+08:00 ] 127.0.0.1 /images/loading.gif
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:57:44+08:00 ] 127.0.0.1 /images/closew.gif
+[ 2016-11-01T10:41:31+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:57:45+08:00 ] 127.0.0.1 /images/rightw.gif
+[ 2016-11-01T11:16:13+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:57:45+08:00 ] 127.0.0.1 /images/leftw.gif
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T00:57:47+08:00 ] 127.0.0.1 /images/loading.gif
+[ 2016-11-01T11:16:50+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:57:47+08:00 ] 127.0.0.1 /images/closew.gif
+[ 2016-11-01T11:17:46+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-01T11:20:12+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-01T11:20:27+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:57:48+08:00 ] 127.0.0.1 /images/leftw.gif
+[ 2016-11-01T11:20:46+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
+ERR: 无法加载模块:Favicon
 
-[ 2016-11-01T00:57:48+08:00 ] 127.0.0.1 /images/rightw.gif
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-ERR: 无法加载模块:Images
-
-[ 2016-11-01T08:43:15+08:00 ] 127.0.0.1 /favicon.ico
+[ 2016-11-01T16:17:51+08:00 ] 127.0.0.1 /favicon.ico
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]

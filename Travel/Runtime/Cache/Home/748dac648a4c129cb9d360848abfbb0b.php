@@ -127,7 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span class="glyphicon glyphicon-leaf ab-gd-img" aria-hidden="true"> </span>
 							<div class="ab-gd-text">
 								<h6><?php echo ($info_content["info_content_title"]); ?></h6>
-								<p><?php echo ($info_content["info_contents"]); ?></p>
+								<p><?php echo ($info_content["info_content"]); ?></p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -218,12 +218,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<p>Nor again is there anyone who loves or pursues or desires</p>
 			</div>
 			 <div class="dream-bottom">
-			  <div class="col-md-3 dream-grid">
-			  	 <h3>9-08-2015</h3>
-			  	 <h4>Nam libero tempore eligendi</h4>
-			  	 <p>But explain idea of pleasure give you a complete</p>
-			  </div>
-			  <div class="col-md-3 dream-grid">
+			 	<!-- 事件遍历 -->
+			 	<?php if(is_array($event)): foreach($event as $key=>$event): ?><div class="col-md-3 dream-grid">
+				  	 <h3><?php echo (date("y-m-d",$event["created_at"])); ?></h3>
+				  	 <h4><?php echo ($event["event_title"]); ?></h4>
+				  	 <p><?php echo ($event["event_descrip"]); ?></p>
+				  </div><?php endforeach; endif; ?>
+			  <!-- 事件遍历结束 -->
+			  <!-- <div class="col-md-3 dream-grid">
 			  	 <h3>18-09-2015</h3>
 			  	 <h4>Lorem Ipsum is simply text</h4>
 			  	 <p>But explain idea of pleasure give you a complete</p>
@@ -237,7 +239,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  	 <h3>12-11-2015</h3>
 			  	 <h4>Nam libero tempore eligendi</h4>
 			  	 <p>But explain idea of pleasure give you a complete</p>
-			  </div>
+			  </div> -->
 			<div class="clearfix"> </div>
 		   </div>
 		</div>
@@ -261,13 +263,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="test-grid-img-main">
 			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="/Public/images/t1.jpg" alt="" class="img-responsive"></a>
+			  	<a href="javascript:void(0)"><img src="/Public/images/t1.jpg" alt="" class="img-responsive"></a>
 			  </div>
 			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="/Public/images/t2.jpg" alt="" class="img-responsive"></a>
+			  	<a href="javascript:void(0)"><img src="/Public/images/t2.jpg" alt="" class="img-responsive"></a>
 			  </div>
 			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="/Public/images/t3.jpg" alt="" class="img-responsive"></a>
+			  	<a href="javascript:void(0)"><img src="/Public/images/t3.jpg" alt="" class="img-responsive"></a>
 			  </div>
 			<div class="clearfix"> </div>
 		</div>
@@ -277,10 +279,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--gallery start here-->
 <div class="gallery" id="gallery">
 	<div class="container">
+		<!-- 图册 标题 描述-->
 		<div class="gallery-top">
-			<h3>Gallery</h3>
-			<p>Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances.</p>
+			<h3><?php echo ($gallery["gallery_title"]); ?></h3>
+			<p><?php echo ($gallery["gallery_descrip"]); ?></p>
 		</div>
+		<!-- 图册 -->
 		<div class="gallery-bottom">
 				<div class="col-md-4 gallery-grid">
 					<div class="project-eff">

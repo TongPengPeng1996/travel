@@ -1,12 +1,12 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>Home</title>
-<link href="/Public/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="__PUBLIC__/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="/Public/js/jquery-1.11.0.min.js"></script>
+<script src="__PUBLIC__/js/jquery-1.11.0.min.js"></script>
 <!-- Custom Theme files -->
-<link href="/Public/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="__PUBLIC__/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -14,8 +14,8 @@
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="/Public/js/move-top.js"></script>
-<script type="text/javascript" src="/Public/js/easing.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/move-top.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/easing.js"></script>
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -44,9 +44,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
       <div class="navg-main">
 		 <div class="top-nav">
-		 	 <span class="menu"> <img src="/Public/images/icon.png" alt=""/></span>
+		 	 <span class="menu"> <img src="__PUBLIC__/images/icon.png" alt=""/></span>
 			<ul class="res">
-				<li><a href="/index.php/Home/Index/../index.html" class="active">主页</a></li>
+				<li><a href="__CONTROLLER__/../index.html" class="active">主页</a></li>
 				<li><a class="scroll" href="#about">关于我们</a></li>
 				<li><a class="scroll" href="#services">服务</a></li>
 				<li><a class="scroll" href="#gallery">图册</a></li>
@@ -78,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<input type="text"  class="text">
 						<input type="submit" value="SEARCH">
 					</form>
-					<div class="close-in"><img src="/Public/images/s-close.png" alt="" /></div>
+					<div class="close-in"><img src="__PUBLIC__/images/s-close.png" alt="" /></div>
 				</div>
 				<div class="right"><button> </button></div>
 		   </div>
@@ -118,27 +118,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="about-bottom">
 				<!-- 左开始 -->
 				<div class="col-md-6 about-left">
-					<h4><?php echo ($info["info_title"]); ?></h4>
-					<h5><?php echo ($info["info_parofile"]); ?></p>
+					<h4>{$info.info_title}</h4>
+					<h5>{$info.info_parofile}</p>
 					<!-- info_内容表 开始-->
-					<?php if(is_array($info_content)): foreach($info_content as $key=>$info_content): ?><div class="about-grid">
+					<foreach name='info_content' item='info_content'>
+					<div class="about-grid">
 						
 						<div class="ab-sub-gd">
 							<span class="glyphicon glyphicon-leaf ab-gd-img" aria-hidden="true"> </span>
 							<div class="ab-gd-text">
-								<h6><?php echo ($info_content["info_content_title"]); ?></h6>
-								<p><?php echo ($info_content["info_contents"]); ?></p>
+								<h6>{$info_content.info_content_title}</h6>
+								<p>{$info_content.info_content}</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
-					</div><?php endforeach; endif; ?>
+					</div>
+				</foreach>
 					<!-- info_内容表 结束 -->
 				</div>
 				<!-- 左结束 -->
 				<div class="col-md-6 about-right">
-					<a href="/index.php/Home/Index/../Single/index">
-						<img src="/Public/images/ab.jpg" alt="" class="img-responsive"></a>
-					<p><?php echo ($info["info_discript"]); ?></p>
+					<a href="__CONTROLLER__/../Single/index">
+						<img src="__PUBLIC__/images/ab.jpg" alt="" class="img-responsive"></a>
+					<p>{$info.info_discript}</p>
 				</div>
 			  <div class="clearfix"> </div>
 			</div>
@@ -176,7 +178,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<div class="ser-bottom">
 		  <div class="col-md-6 service-left">
-		  	<img src="/Public/images/ser1.jpg" alt="" class="img-responsive">
+		  	<img src="__PUBLIC__/images/ser1.jpg" alt="" class="img-responsive">
 		  </div>
 		  <div class="col-md-6 services-right">
 		  	<div class="ser-grid">
@@ -261,13 +263,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="test-grid-img-main">
 			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="/Public/images/t1.jpg" alt="" class="img-responsive"></a>
+			  	<a href="#"><img src="__PUBLIC__/images/t1.jpg" alt="" class="img-responsive"></a>
 			  </div>
 			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="/Public/images/t2.jpg" alt="" class="img-responsive"></a>
+			  	<a href="#"><img src="__PUBLIC__/images/t2.jpg" alt="" class="img-responsive"></a>
 			  </div>
 			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="/Public/images/t3.jpg" alt="" class="img-responsive"></a>
+			  	<a href="#"><img src="__PUBLIC__/images/t3.jpg" alt="" class="img-responsive"></a>
 			  </div>
 			<div class="clearfix"> </div>
 		</div>
@@ -284,46 +286,46 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="gallery-bottom">
 				<div class="col-md-4 gallery-grid">
 					<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="/Public/images/g4.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
-							<img class="img-responsive" src="/Public/images/g4.jpg" alt="">
+						<div id="nivo-lightbox-demo"> <p> <a href="__PUBLIC__/images/g4.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
+							<img class="img-responsive" src="__PUBLIC__/images/g4.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="/Public/images/g3.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
-							<img class="img-responsive" src="/Public/images/g3.jpg" alt="">
+						<div id="nivo-lightbox-demo"> <p> <a href="__PUBLIC__/images/g3.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
+							<img class="img-responsive" src="__PUBLIC__/images/g3.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="/Public/images/g2.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
-							<img class="img-responsive" src="/Public/images/g2.jpg" alt="">
+						<div id="nivo-lightbox-demo"> <p> <a href="__PUBLIC__/images/g2.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
+							<img class="img-responsive" src="__PUBLIC__/images/g2.jpg" alt="">
 					</div>
 				</div>
                 <div class="col-md-4 gallery-grid">
 					<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="/Public/images/g5.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
-							<img class="img-responsive" src="/Public/images/g5.jpg" alt="">
+						<div id="nivo-lightbox-demo"> <p> <a href="__PUBLIC__/images/g5.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
+							<img class="img-responsive" src="__PUBLIC__/images/g5.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="/Public/images/g6.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
-							<img class="img-responsive" src="/Public/images/g6.jpg" alt="">
+						<div id="nivo-lightbox-demo"> <p> <a href="__PUBLIC__/images/g6.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
+							<img class="img-responsive" src="__PUBLIC__/images/g6.jpg" alt="">
 					</div>
 				</div>
 				<div class="col-md-4 gallery-grid">
 					<div class="project-eff">
-						<div id="nivo-lightbox-demo"> <p> <a href="/Public/images/g1.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
-							<img class="img-responsive" src="/Public/images/g1.jpg" alt="">
+						<div id="nivo-lightbox-demo"> <p> <a href="__PUBLIC__/images/g1.jpg"data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a> </p></div>     
+							<img class="img-responsive" src="__PUBLIC__/images/g1.jpg" alt="">
 					</div>
 				</div>
 		   <div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
-<link rel="stylesheet" type="text/css" href="/Public/css/magnific-popup.css">
-			<script type="text/javascript" src="/Public/js/nivo-lightbox.min.js"></script>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/magnific-popup.css">
+			<script type="text/javascript" src="__PUBLIC__/js/nivo-lightbox.min.js"></script>
 				<script type="text/javascript">
 				$(document).ready(function(){
 				    $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
@@ -393,15 +395,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
              <div class="col-md-3 ftr-grd">
                    <h3>Recent project</h3>
                    <div class="ftr-gd4-img">
-				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/Public/images/f1.jpg" alt="" class="img-responsive"></a></div>
-				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/Public/images/f2.jpg" alt="" class="img-responsive"></a></div>
-				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/Public/images/f3.jpg" alt="" class="img-responsive"></a></div>
+				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="__PUBLIC__/images/f1.jpg" alt="" class="img-responsive"></a></div>
+				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="__PUBLIC__/images/f2.jpg" alt="" class="img-responsive"></a></div>
+				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="__PUBLIC__/images/f3.jpg" alt="" class="img-responsive"></a></div>
 				  <div class="clearfix"> </div>
 				</div>
 				<div class="ftr-gd4-img">
-				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/Public/images/f4.jpg" alt="" class="img-responsive"></a></div>
-				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/Public/images/f5.jpg" alt="" class="img-responsive"></a></div>
-				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="/Public/images/f6.jpg" alt="" class="img-responsive"></a></div>
+				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="__PUBLIC__/images/f4.jpg" alt="" class="img-responsive"></a></div>
+				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="__PUBLIC__/images/f5.jpg" alt="" class="img-responsive"></a></div>
+				    <div class="col-md-4 ftr-gd4-1"><a href="single.html"><img src="__PUBLIC__/images/f6.jpg" alt="" class="img-responsive"></a></div>
 				  <div class="clearfix"> </div>
 				</div>
              </div>
