@@ -171,23 +171,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="services" id="services">
 	<div class="services-main">
 		<div class="ser-top">
-			<h3>Services</h3>
-			<p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being</p>
+			<h3><?php echo ($service["service_title"]); ?></h3>
+			<p><?php echo ($service["service_descrip"]); ?></p>
 		</div>
 		<div class="ser-bottom">
 		  <div class="col-md-6 service-left">
 		  	<img src="/Public/images/ser1.jpg" alt="" class="img-responsive">
 		  </div>
 		  <div class="col-md-6 services-right">
-		  	<div class="ser-grid">
-		  		<span class="glyphicon glyphicon-plane ser-icon" aria-hidden="true"> </span>
+		  	<?php if(is_array($service_content)): $i = 0; $__LIST__ = $service_content;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$sc): $mod = ($i % 2 );++$i;?><div class="ser-grid">
+		  		<?php if($sc["id"] == '1'): ?><span class="glyphicon glyphicon-plane ser-icon" aria-hidden="true"> </span>
+				<?php elseif($sc["id"] == '2'): ?>
+					<span class="glyphicon glyphicon-glass ser-icon" aria-hidden="true"> </span>
+				<?php else: ?>
+					<span class="glyphicon glyphicon-cutlery ser-icon" aria-hidden="true"> </span><?php endif; ?>	
 		  		<div class="ser-text">
-		  			<h4>Nam libero tempore cum soluta</h4>
-		  			<p>At vero eos et accusamus dignissimos ducimus qui blanditiis</p>
+
+		  			<h4><?php echo ($sc["service_content_title"]); ?></h4>
+		  			<p><?php echo ($sc["service_content_descrip"]); ?></p>
 		  		</div>
 		  	   <div class="clearfix"> </div>
-		  	</div>
-		  	<div class="ser-grid">
+		  	</div><?php endforeach; endif; else: echo "" ;endif; ?>
+		  	<!-- <div class="ser-grid">
 		  		<span class="glyphicon glyphicon-glass ser-icon" aria-hidden="true"> </span>
 		  		<div class="ser-text">
 		  			<h4>These cases are perfectly simple.</h4>
@@ -202,7 +207,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		  			<p>At vero eos et accusamus dignissimos ducimus qui blanditiis</p>
 		  		</div>
 		  	   <div class="clearfix"> </div>
-		  	</div>
+		  	</div> -->
 		  </div>
 		   <div class="clearfix"> </div>
 	    </div>
@@ -337,19 +342,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<div class="contact-main">
 			<div class="contact-top">
-				<h3>Contact</h3>
-				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam architecto beatae.</p>
+				<h3><?php echo ($contact_type["contact_title"]); ?></h3>
+				<p><?php echo ($contact_type["contact_descrip"]); ?></p>
 			</div>
 		  <div class="contact-bottom">
-			<div class="col-md-6 contact-left">
-				<input type="text" placeholder="Name" required="">
-				<input type="text" placeholder="Email" required="">
-				<input type="text" placeholder="Phone" required="">
-			</div>
-			<div class="col-md-6 contact-right">
-				<textarea placeholder="Message" required=""></textarea>
-				<input type="submit"  value="Submit">
-			</div>
+		  	<form action="/home/Index/sub/" method='post'>
+		  		<div class="col-md-6 contact-left">
+		  		<input type="hidden" name='fid' value="<?php echo ($contact_type["id"]); ?>">
+				<input type="text"  name='contact_name' placeholder="Name" required="">
+				<input type="text"  name='contact_email' placeholder="Email" required="">
+				<input type="text"  name='contact_phone' placeholder="Phone" required="">
+				</div>
+				<div class="col-md-6 contact-right">
+					<textarea  name='contact_content' placeholder="Message" required=""></textarea>
+					<input type="submit"  value="Submit">
+				</div>
+		  	</form>
 			<div class="clearfix"> </div>
 		   </div>
 		</div>
