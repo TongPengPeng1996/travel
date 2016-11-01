@@ -19,4 +19,9 @@ class IndexController extends Controller {
 
     	$this->display();
     }
+    public function _empty()
+    {
+      // 空操作
+      $this->redirect('Index/index');
+    }
 }

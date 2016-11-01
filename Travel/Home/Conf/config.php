@@ -20,4 +20,6 @@ return array(
 	  // 开启页面trace   必须用模板    不在页面显示 f12
 	  'SHOW_PAGE_TRACE' =>true, 
 	  'TMPL_FILE_DEPR'=>'_',    //常用
+
+	  'DEFAULT_THEME'    =>    'one',   //更换主题
 );
